@@ -44,7 +44,7 @@ $(function() {
 
 	    $(".toggle-mnu--desktop").click(function() {
 	        $(this).toggleClass("on");
-	        alert($(this).attr('class'));
+	       
 	        $(".sf-menu").stop(true, true).slideToggle();
 	        return false;
 	    });
